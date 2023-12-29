@@ -16,7 +16,7 @@ getSingleUsers(req, res) {
         .populate('friends')
         .populate('thoughts')
         .then((user) => !user ? res.status(404).json({ message: 'No user with that ID' }) : res.json(user))
-        .catch((err) => res.status(500).json(err));
+        .catch((err) => res.status(500).json({message: 'Internal Server Error', error: err}));
 };
 
 // Create User
@@ -64,7 +64,7 @@ updateUser(req, res) {
 
 // Delete User and thoughts they posted
 deleteUser(req, res) {
-    const { userId } = req.params.userId;
+    const userId  = req.params.userId;
 
     if (!userId) {
         return res.status(400).json({ message: 'No user with that ID' });
