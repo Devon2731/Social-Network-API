@@ -1,0 +1,20 @@
+{
+"name": "social-network-api",
+"version": "1.0.0",
+"main": "index.js",
+"description": "Social Network API",
+"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+},
+"repository": {
+    "type": "git",
+    "url": "git+https://github.com/Devon2731/Social-Network-API"
+},
+"author": "Devon Whitaker",
+"license": "MIT",
+"dependencies": {
+    "express": "^4.17.1",
+    "bson": "^4.7.0",
+    "mongoose": "^7.0.2"
+    }
+}

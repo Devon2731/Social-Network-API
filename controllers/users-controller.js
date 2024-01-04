@@ -6,7 +6,7 @@ getUsers(req, res) {
         .find({})
         .then((users) => res.json(users))
         .catch((err) => res.status(500).json(err));
-};
+}
 
 // get all the users from database
 getSingleUsers(req, res) {
