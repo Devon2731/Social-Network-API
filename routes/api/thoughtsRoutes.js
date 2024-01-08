@@ -9,7 +9,7 @@ const {
     deleteThought,
     addReaction,
     deleteReaction,
-  } = require('../../controllers/thoughts-controller');
+  } = require('../../controllers/thoughtsController');
 
   router.route('/').get(getThoughts).post(createThought);
 
