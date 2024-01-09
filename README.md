@@ -29,3 +29,10 @@ This application utilizes Node.js to implement a collection of APIs, catering to
 
 Licensed by MIT license.
 
+## Walkthrough
+
+
+
+https://github.com/Devon2731/Social-Network-API/assets/141438012/7fbc7e86-4593-4da1-8b92-d570dba76f40
+
+
